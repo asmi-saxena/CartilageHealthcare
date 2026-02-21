@@ -91,7 +91,7 @@ export default function Contact() {
 
         <div className="w-full h-96 bg-muted rounded-lg border border-border overflow-hidden">
           <iframe 
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3563.5234567891234!2d77.36!3d28.45!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce477c0b42cbd%3A0x5b5b0b0b0b0b0b0b!2sITHUM%20Tower%2C%20C%20215%20Block%2C%20Sector%2062%2C%20Noida!5e0!3m2!1sen!2sin!4v1640000000000" 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3564.7328651234567!2d77.600123!3d28.451544!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce4479e5b5b5b%3A0x5b5b5b5b5b5b5b5b!2siThum%20Noida%2C%20Plot%20no.%20A%2C%2040%2C%20Block%20A%2C%20Industrial%20Area%2C%20Sector%2062%2C%20Noida%2C%20Uttar%20Pradesh%20201309!5e0!3m2!1sen!2sin!4v1708602000000" 
             width="100%" 
             height="100%" 
             style={{border: 0}} 

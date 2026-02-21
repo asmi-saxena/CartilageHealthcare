@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mb-12">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <img src="/logo.webp" alt="Cartilage Healthcare" className="h-8 w-auto" />
+              <img src="/logo.png" alt="Cartilage Healthcare" className="h-8 w-auto" />
             </div>
             <p className="text-sm text-foreground/60 leading-relaxed">
               Advanced medical equipment solutions for healthcare facilities worldwide.

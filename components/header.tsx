@@ -1,4 +1,5 @@
 import { Button } from '@/components/ui/button'
+import { ThemeSwitcher } from '@/components/theme-switcher'
 
 export function Header() {
   return (
@@ -26,7 +27,7 @@ export function Header() {
           </a>
         </nav>
 
-
+        <ThemeSwitcher />
       </div>
     </header>
   )

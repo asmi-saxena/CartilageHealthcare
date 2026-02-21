@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /admin
+Disallow: /.next
+Disallow: /api
+
+Sitemap: https://www.cartilagehealthcare.com/sitemap.xml
+
+# Delay for crawlers
+Crawl-delay: 1

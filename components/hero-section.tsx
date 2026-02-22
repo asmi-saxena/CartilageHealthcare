@@ -29,21 +29,6 @@ export function HeroSection() {
             View Products
           </Button>
         </div>
-
-        <div className="mt-16 grid grid-cols-3 gap-8 md:gap-12 max-w-2xl mx-auto">
-          <div>
-            <div className="text-2xl md:text-3xl font-bold text-primary mb-2">500+</div>
-            <p className="text-sm text-foreground/60">Installations</p>
-          </div>
-          <div>
-            <div className="text-2xl md:text-3xl font-bold text-primary mb-2">20+</div>
-            <p className="text-sm text-foreground/60">Years Experience</p>
-          </div>
-          <div>
-            <div className="text-2xl md:text-3xl font-bold text-primary mb-2">98%</div>
-            <p className="text-sm text-foreground/60">Satisfaction</p>
-          </div>
-        </div>
       </div>
     </section>
   )

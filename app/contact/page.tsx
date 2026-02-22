@@ -74,7 +74,7 @@ export default function Contact() {
                   <MapPin className="w-5 h-5 text-primary" />
                   Address
                 </h3>
-                <p className="text-foreground/80">C 215 Block, ITHUM Tower, Sector 62, Noida, India</p>
+                <p className="text-foreground/80"> C 215 ,Tower-C, ITHUM₹, A-40, Sector 62,  Noida, Distt: Gautam Buddh Nagar, Uttar Pradesh-201309, India</p>
               </div>
 
               <div>
@@ -82,8 +82,8 @@ export default function Contact() {
                   <Clock className="w-5 h-5 text-primary" />
                   Business Hours
                 </h3>
-                <p className="text-foreground/80">Monday - Friday: 9:00 AM - 6:00 PM</p>
-                <p className="text-foreground/80">Saturday - Sunday: Closed</p>
+                <p className="text-foreground/80">Monday - Saturday: 9:00 AM - 6:00 PM</p>
+                <p className="text-foreground/80">Sunday: Closed</p>
               </div>
             </div>
           </div>

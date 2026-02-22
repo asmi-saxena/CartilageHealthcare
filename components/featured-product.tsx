@@ -25,15 +25,18 @@ export function FeaturedProduct() {
           <Badge className="bg-primary/10 text-primary border-0 mb-4">
             Featured Product
           </Badge>
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-4">
+          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-2">
             TORAY Dialysis <span className="text-primary">Systems</span>
           </h2>
+          <p className="text-base md:text-2xl font-bold text-primary mb-4">
+            Authorised Importer and Distributor for India and Nepal
+          </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           <div className="flex items-center justify-center bg-gradient-to-br from-blue-100/40 to-blue-50/30 rounded-lg h-96 border border-blue-200/50 overflow-hidden shadow-lg shadow-blue-100/50">
             <img 
-              src="/dialysis-machine.jpg" 
+              src="/dialysistoray.avif" 
               alt="TORAY Dialysis Machine"
               className="w-full h-full object-cover"
             />

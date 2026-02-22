@@ -5,14 +5,13 @@ import { Badge } from '@/components/ui/badge'
 const productCategories = [
   {
     name: 'Dialysis Equipment',
-    description: 'Advanced hemodialysis and peritoneal dialysis machines',
-    count: '12+ Models',
+    description: 'Advanced hemodialysis machines',
     color: 'bg-primary',
-    image: '/dialysis-machine.jpg',
+    image: '/dialysistoray.avif',
     link: '/products',
   },
   {
-    name: 'Patient Monitors',
+    name: 'Critical Care Equipments',
     description: 'Multi-parameter patient monitoring systems',
     count: '8+ Models',
     color: 'bg-secondary',

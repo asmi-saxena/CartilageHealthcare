@@ -10,12 +10,10 @@ export function Footer() {
       <div className="max-w-6xl mx-auto px-6 md:px-8 lg:px-12 py-16 md:py-20">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mb-12">
           <div>
-            <div className="flex items-center gap-2 mb-4">
-              <Logo className="h-8 w-auto" />
+            <div className="flex items-center gap-4 mb-4">
+              <Logo className="h-20 w-auto md:h-24 lg:h-28" />
             </div>
-            <p className="text-sm text-foreground/60 leading-relaxed">
-              Advanced medical equipment solutions for healthcare facilities worldwide.
-            </p>
+            
           </div>
 
           <div>
@@ -28,7 +26,7 @@ export function Footer() {
               </li>
               <li>
                 <a href="#" className="text-foreground/60 hover:text-primary transition-colors">
-                  Patient Monitors
+                  Critical Care Equipments
                 </a>
               </li>
               <li>
@@ -84,7 +82,7 @@ export function Footer() {
                 </a>
               </li>
               <li className="text-foreground/60">
-                C 215 Block, ITHUM Tower, Sector 62, Noida, India
+                C 215 ,Tower-C, ITHUM, A-40, Sector 62,  Noida, Distt: Gautam Buddh Nagar, Uttar Pradesh-201309, India
               </li>
             </ul>
           </div>

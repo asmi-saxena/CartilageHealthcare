@@ -3,7 +3,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/com
 const services = [
   {
     title: 'Medical Equipment',
-    description: 'Comprehensive range of advanced medical equipment including dialysis machines, patient monitors, and laboratory solutions.',
+    description: 'Comprehensive range of advanced medical equipment including dialysis machines, critical care equipments and laboratory solutions.',
     icon: '🏥',
   },
   {
@@ -32,7 +32,7 @@ export function ServicesGrid() {
             Our <span className="text-primary">Services</span>
           </h2>
           <p className="text-lg text-foreground/60 max-w-2xl mx-auto">
-            We provide comprehensive medical equipment solutions and services to healthcare facilities worldwide.
+            We provide comprehensive medical equipment solutions and services to healthcare facilities.
           </p>
         </div>
 

@@ -8,29 +8,31 @@ export function Header() {
   return (
     <header className="sticky top-0 z-50 w-full border-b border-border bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="flex h-16 items-center justify-between px-6 md:px-8 lg:px-12">
-        <a href="/" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-          <Logo className="h-12 w-auto" />
+        <a href="/" className="flex items-center gap-3 hover:opacity-80 transition-opacity">
+          <Logo className="h-16 w-auto md:h-20" />
         </a>
 
-        <nav className="hidden md:flex items-center gap-8">
-          <a href="/products" className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors">
-            Products
-          </a>
-          <a href="/services" className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors">
-            Services
-          </a>
-          <a href="/about" className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors">
-            About
-          </a>
-          <a href="/careers" className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors">
-            Careers
-          </a>
-          <a href="/contact" className="text-sm font-medium text-foreground/70 hover:text-foreground transition-colors">
-            Contact
-          </a>
-        </nav>
+        <div className="hidden md:flex items-center gap-6">
+          <nav className="flex items-center gap-8">
+            <a href="/about" className="text-base md:text-lg font-semibold text-foreground/90 hover:text-foreground transition-colors">
+              About
+            </a>
+            <a href="/products" className="text-base md:text-lg font-medium text-foreground/70 hover:text-foreground transition-colors">
+              Products
+            </a>
+            <a href="/services" className="text-base md:text-lg font-medium text-foreground/70 hover:text-foreground transition-colors">
+              Services
+            </a>
+            <a href="/careers" className="text-base md:text-lg font-medium text-foreground/70 hover:text-foreground transition-colors">
+              Careers
+            </a>
+            <a href="/contact" className="text-base md:text-lg font-medium text-foreground/70 hover:text-foreground transition-colors">
+              Contact
+            </a>
+          </nav>
 
-        <ThemeSwitcher />
+          <ThemeSwitcher />
+        </div>
       </div>
     </header>
   )

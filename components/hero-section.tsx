@@ -1,4 +1,6 @@
 import { Button } from '@/components/ui/button'
+import { Link } from 'lucide-react'
+
 
 export function HeroSection() {
   return (
@@ -21,12 +23,12 @@ export function HeroSection() {
         </h1>
 
         <p className="text-lg md:text-xl text-foreground/70 text-balance mb-8 max-w-2xl mx-auto leading-relaxed">
-          Specialized in dialysis machines and comprehensive healthcare equipment. We deliver quality assurance and technical support for healthcare infrastructure.
+          Specialized in biomedical equipments and comprehensive healthcare equipment. We deliver quality assurance and technical support for healthcare infrastructure.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Button size="lg" className="bg-primary hover:bg-primary/90 px-8">
-            View Products
+            <a href="/products">View Products</a>
           </Button>
         </div>
       </div>

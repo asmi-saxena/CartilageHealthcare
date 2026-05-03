@@ -3,13 +3,15 @@
 import { useState, useEffect } from 'react'
 import Image from 'next/image'
 
-const SAMPLE_PHOTOS = [
-  'https://images.unsplash.com/photo-1631217314831-4b4b248e5745?w=800&h=600&fit=crop',
+const HEALTHCARE_PHOTOS = [
   'https://images.unsplash.com/photo-1576091160550-112173f7f869?w=800&h=600&fit=crop',
-  'https://images.unsplash.com/photo-1576091160699-112413f8342d?w=800&h=600&fit=crop',
-  'https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=600&fit=crop',
+  'https://images.unsplash.com/photo-1631217314831-4b4b248e5745?w=800&h=600&fit=crop',
+  'https://images.unsplash.com/photo-1578496781514-66a84e0f3232?w=800&h=600&fit=crop',
   'https://images.unsplash.com/photo-1579154204601-01d430248e23?w=800&h=600&fit=crop',
-  'https://images.unsplash.com/photo-1631217314831-a8f2c3d25b9e?w=800&h=600&fit=crop',
+  'https://images.unsplash.com/photo-1576091160699-112413f8342d?w=800&h=600&fit=crop',
+  'https://images.unsplash.com/photo-1579154204706-78ba9f389ff5?w=800&h=600&fit=crop',
+  'https://images.unsplash.com/photo-1559033615-cd4628902d4a?w=800&h=600&fit=crop',
+  'https://images.unsplash.com/photo-1576091160399-0ff71d0fbf5f?w=800&h=600&fit=crop',
 ]
 
 export function PhotoGallery() {
@@ -18,17 +20,17 @@ export function PhotoGallery() {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % SAMPLE_PHOTOS.length)
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % HEALTHCARE_PHOTOS.length)
     }, 5000)
 
     return () => clearInterval(interval)
   }, [])
 
   return (
-    <div className="w-full aspect-video relative rounded-xl overflow-hidden shadow-lg bg-muted">
+    <div className="w-full aspect-video relative rounded-[28px] overflow-hidden shadow-lg shadow-slate-950/5 bg-muted border border-slate-200/80">
       <Image
-        src={SAMPLE_PHOTOS[currentIndex]}
-        alt={`Gallery image ${currentIndex + 1}`}
+        src={HEALTHCARE_PHOTOS[currentIndex]}
+        alt={`Healthcare image ${currentIndex + 1}`}
         fill
         className="object-cover"
         onLoadingComplete={() => setIsLoading(false)}
@@ -42,7 +44,7 @@ export function PhotoGallery() {
 
       {/* Indicators */}
       <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex gap-2 z-10">
-        {SAMPLE_PHOTOS.map((_, index) => (
+        {HEALTHCARE_PHOTOS.map((_, index) => (
           <button
             key={index}
             onClick={() => setCurrentIndex(index)}
@@ -56,7 +58,7 @@ export function PhotoGallery() {
 
       {/* Image counter */}
       <div className="absolute top-4 right-4 bg-black/50 text-white px-3 py-1 rounded-full text-sm">
-        {currentIndex + 1} / {SAMPLE_PHOTOS.length}
+        {currentIndex + 1} / {HEALTHCARE_PHOTOS.length}
       </div>
     </div>
   )

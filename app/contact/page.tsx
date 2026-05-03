@@ -74,7 +74,7 @@ export default function Contact() {
                   <MapPin className="w-5 h-5 text-primary" />
                   Address
                 </h3>
-                <p className="text-foreground/80"> C 215 ,Tower-C, ITHUM₹, A-40, Sector 62,  Noida, Distt: Gautam Buddh Nagar, Uttar Pradesh-201309, India</p>
+                <p className="text-foreground/80"> C 215 ,Tower-C, ITHUM, A-40, Sector 62,  Noida, Distt: Gautam Buddh Nagar, Uttar Pradesh-201309, India</p>
               </div>
 
               <div>
